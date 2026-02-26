@@ -15,7 +15,7 @@ export default function Header() {
         </button>
 
         <Link href="/" className={styles.logo}>
-          <Image src="/wired-logo.svg" alt="WIRED home" width={209} height={42} />
+          <img src="/wired-logo.svg" alt="WIRED home" />
         </Link>
 
         <nav className={styles.mainNav}>

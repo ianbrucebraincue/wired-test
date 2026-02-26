@@ -1,0 +1,18 @@
+.heroWrapper {
+  position: relative;
+  height: calc(200vh - var(--header-height));
+}
+
+.heroImage {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.heroImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 65%;
+}

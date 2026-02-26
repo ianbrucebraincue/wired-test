@@ -6,12 +6,14 @@
   --font-editorial: "BreveText", serif;
   --font-display: "WiredDisplay", sans-serif;
   --font-mono: "WiredMono", monospace;
+
+  --header-height: 60px;
 }
 
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
+  width: 100%;
 }
 
 body {

@@ -12,4 +12,23 @@
   min-height: 100vh;
   font-family: var(--font-geist-sans);
   background-color: var(--background);
+  position: relative;
+}
+
+.main {
+  position: relative;
+}
+
+/* Content that scrolls over */
+.articleContent {
+  position: relative;
+  margin-top: -100vh; /* pulls content upward */
+  background: white;
+  z-index: 2;
+}
+
+.contentInner {
+  padding: 120px 24px;
+  max-width: 900px;
+  margin: 0 auto;
 }

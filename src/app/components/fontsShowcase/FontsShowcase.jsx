@@ -3,7 +3,7 @@ import styles from "./FontsShowcase.module.css";
 export default function FontShowcase() {
   return (
     <section className={styles.wrapper}>
-      <h1 className={styles.pageTitle}>Font Showcase</h1>
+      <h1 className={styles.pageTitle}>Fonts Showcase</h1>
 
       {/* APERCU */}
       <div className={styles.block}>

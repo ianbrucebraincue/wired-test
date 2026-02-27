@@ -1,30 +1,38 @@
 .split {
-  display: grid;
+  display: flex;
+  align-items: end;
+  border-bottom: 1px solid #000000;
+}
+
+.split > div {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .split {
+    flex-direction: column;
+  }
+
+  .split > div {
+    width: 100%;
+  }
 }
 
 .default {
-  grid-template-columns: 50% 50%;
-}
-
-.tight {
-  column-gap: 0;
-  grid-template-columns: 1fr 1fr;
-}
-
-.reverse {
-  direction: rtl;
-}
-
-.reverse > * {
-  direction: ltr;
+  flex: 1 1 50%;
 }
 
 .text {
   margin-top: 1rem;
 }
 
+.media {
+  position: relative;
+  display: flex;
+}
+
 .media img {
-  max-width: 100%;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }

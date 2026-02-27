@@ -2,16 +2,10 @@
   position: relative;
 }
 
-.section::before {
+.section .line::before {
   content: "";
   border-top: 3px solid red;
-  margin-top: -1px;
   display: block;
-  max-width: 1150px;
   width: 100%;
-  margin: 0 auto;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 2rem;
+  padding-bottom: 1rem;
 }

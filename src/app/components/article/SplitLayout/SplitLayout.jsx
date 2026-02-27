@@ -4,14 +4,12 @@ export default function ArticleSplit({
   children,
   image,
   variant = 'default',
-  reverse = false
 }) {
   return (
     <div
       className={`
         ${styles.split}
         ${styles[variant]}
-        ${reverse ? styles.reverse : ''}
       `}
     >
       <div className={styles.text}>{children}</div>

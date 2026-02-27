@@ -4,7 +4,7 @@ export default function Section({ children }) {
   return (
     <section className={styles.section}>
       <div className="container">
-        <div className="inner">
+        <div className={`inner ${styles.line}`}>
           {children}
         </div>
       </div>

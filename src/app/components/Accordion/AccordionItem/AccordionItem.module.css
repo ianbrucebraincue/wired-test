@@ -1,0 +1,39 @@
+.item {
+  border-bottom: 1px solid #000000;
+  font-size: 22px;
+  padding-bottom: 1em;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.trigger {
+  font-size: inherit;
+  font-family: var(--font-mono);
+  width: 100%;
+  background: none;
+  border: none;
+  padding-top: 1em;
+  text-align: left;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.heading .trigger .icon {
+  margin-left: 0.5rem;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 250ms ease;
+  font-family: var(--font-mono);
+  font-size: 18px;
+}
+
+
+.open {
+  max-height: 500px;
+}

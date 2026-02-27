@@ -4,6 +4,12 @@
   padding-bottom: 1em;
 }
 
+@media (max-width: 768px) {
+  .item {
+    font-size: 18px;
+  }
+}
+
 .item:last-child {
   border-bottom: none;
 }

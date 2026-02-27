@@ -3,13 +3,13 @@ import styles from "./SplitLayout.module.css";
 export default function ArticleSplit({
   children,
   image,
-  variant = 'default',
+  border = true
 }) {
   return (
     <div
       className={`
         ${styles.split}
-        ${styles[variant]}
+        ${border ? '' : styles.borderless}
       `}
     >
       <div className={styles.text}>{children}</div>

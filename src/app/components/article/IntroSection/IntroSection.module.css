@@ -20,6 +20,12 @@
   margin-bottom: 32px;
 }
 
+@media (max-width: 768px) {
+  .title {
+    font-size: 42px;
+  }
+}
+
 .tagline {
   font-family: var(--font-mono);
   font-size: 18px;

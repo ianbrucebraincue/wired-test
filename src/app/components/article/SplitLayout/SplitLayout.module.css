@@ -4,6 +4,11 @@
   border-bottom: 1px solid #000000;
 }
 
+.split.borderless {
+  align-items: start;
+  border-bottom: none;
+}
+
 .split > div {
   width: 50%;
 }
@@ -16,14 +21,6 @@
   .split > div {
     width: 100%;
   }
-}
-
-.default {
-  flex: 1 1 50%;
-}
-
-.text {
-  margin-top: 1rem;
 }
 
 .media {

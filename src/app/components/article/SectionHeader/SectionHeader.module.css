@@ -1,0 +1,27 @@
+.header {
+  font-family: var(--font-display-slab);
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 0.96;
+}
+
+.title {
+  font-family: var(--font-display-slab);
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 0.96;
+  text-transform: uppercase;
+  position: relative;
+  max-width: 75%;
+  text-wrap: pretty;
+}
+
+.number {
+  font-family: var(--font-display-slab);
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 0.96;
+  position: absolute;
+  right: 100%;
+  margin-right: 0.2em;
+}

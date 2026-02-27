@@ -3,13 +3,17 @@
   margin-top: -100vh;
   background: inherit;
   z-index: 2;
-  padding-top: 70px;
+}
+
+.inner {
+  max-width: 720px;
+  margin: 0 auto;
 }
 
 .title {
   font-family: var(--font-display-slab);
   font-weight: 400;
-  font-size: 100px;
+  font-size: 80px;
   line-height: 0.96;
   text-transform: uppercase;
   text-align: center;
@@ -18,31 +22,26 @@
 
 .tagline {
   font-family: var(--font-mono);
-  font-size: 24px;
+  font-size: 18px;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 80px;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .editorsNote p {
   font-family: var(--font-editorial);
-  font-size: 32px;
+  font-size: 22px;
   line-height: 1.5;
   color: #2a2a2a;
-  display: grid;
-  gap: 32px;
-  margin-bottom: 2em;
-  text-align: center;
+  margin-bottom: 1em;
 }
 
 .editorsNoteSignature {
-  text-align: center;
   font-family: var(--font-mono);
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 32px;
+  font-size: 20px;
   line-height: 1;
-  margin-top: -32px;
 }

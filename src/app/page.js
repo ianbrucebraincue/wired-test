@@ -13,6 +13,7 @@ import SectionHeader from './components/article/SectionHeader/SectionHeader.jsx'
 import SplitLayout from './components/article/SplitLayout/SplitLayout.jsx';
 import Button from './components/Button/Button.jsx';
 import Accordion from './components/Accordion/Accordion.jsx';
+import BigStat from './components/BigStat/BigStat.jsx';
 
 import FontsShowcase from "./components/FontsShowcase/FontsShowcase.jsx";
 
@@ -88,6 +89,7 @@ export default function Home() {
             <SectionHeader 
               number={3} 
               title="You'll gladly drink Franken-milk" />
+              <BigStat number={8} description="Tons Amount of milk a cloned Chinese &quot;super cow&quot; can produce annually, almost double the output of a typical American bovine." />
           </Section>
         </Article>
       </main>

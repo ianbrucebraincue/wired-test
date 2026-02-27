@@ -1,0 +1,30 @@
+.split {
+  display: grid;
+}
+
+.default {
+  grid-template-columns: 50% 50%;
+}
+
+.tight {
+  column-gap: 0;
+  grid-template-columns: 1fr 1fr;
+}
+
+.reverse {
+  direction: rtl;
+}
+
+.reverse > * {
+  direction: ltr;
+}
+
+.text {
+  margin-top: 1rem;
+}
+
+.media img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}

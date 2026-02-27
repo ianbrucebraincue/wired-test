@@ -1,0 +1,75 @@
+.button3d {
+  position: relative;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+/* Anchor — fluid sizing */
+.button3d a {
+  position: relative;
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  background-color: red;
+
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  line-height: 1;
+  z-index: 3;
+
+  /* START RAISED (top-left) */
+  transform: translate(-8px, -8px);
+  transition: transform 200ms ease;
+}
+
+/* On hover — collapse down-right */
+.button3d:hover a {
+  transform: translate(0px, 0px);
+}
+
+/* RIGHT SIDE DEPTH */
+.button3d a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 8px;
+  height: calc(100% - 2px);
+  background-color: transparent;
+  border: 2px solid red;
+  border-bottom: none;
+
+  transform-origin: 0% 50%;
+  transform: skewY(45deg);
+  transition: transform 200ms ease;
+}
+
+/* Collapse right depth on hover */
+.button3d:hover a::before {
+  transform: skewY(45deg) scaleX(0);
+}
+
+/* BOTTOM DEPTH */
+.button3d a::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: calc(100% - 2px);
+  height: 8px;
+  background-color: transparent;
+  border: 2px solid red;
+  border-right: none;
+
+  transform-origin: 50% 0%;
+  transform: skewX(45deg);
+  transition: transform 200ms ease;
+}
+
+/* Collapse bottom depth on hover */
+.button3d:hover a::after {
+  transform: skewX(45deg) scaleY(0);
+}

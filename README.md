@@ -6,6 +6,20 @@
 
 ## 🛠 Available Scripts
 
+This project includes the required npm scripts:
+
+### 📦 `npm install`
+
+Installs all project dependencies:
+
+```bash
+npm install
+```
+
+Run this first before any other scripts.
+
+---
+
 This project includes the two required npm scripts:
 
 ### ▶️ `npm run start`

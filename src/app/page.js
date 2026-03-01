@@ -16,8 +16,6 @@ import Accordion from './components/Accordion/Accordion.jsx';
 import BigStat from './components/BigStat/BigStat.jsx';
 import Image from "next/image";
 
-import FontsShowcase from "./components/FontsShowcase/FontsShowcase.jsx";
-
 const accordionItems = [
   {
     title: "Overview",

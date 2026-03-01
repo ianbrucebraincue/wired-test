@@ -52,4 +52,11 @@
   text-decoration: underline;
   font-family: var(--font-mono);
   margin-left: 0.2em;
+  padding: 0 0.4em;
+}
+
+.readMoreLink:hover {
+  color: #fff;
+  background: red;
+  text-decoration: none;
 }

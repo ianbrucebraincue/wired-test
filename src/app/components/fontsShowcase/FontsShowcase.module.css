@@ -20,19 +20,23 @@
 }
 
 /* Font Families */
-.apercu {
+.apercu,
+.apercu * {
   font-family: "Apercu", sans-serif;
 }
 
-.breve {
+.breve,
+.breve * {
   font-family: "BreveText", serif;
 }
 
-.wiredDisplay {
+.wiredDisplay,
+.wiredDisplay * {
   font-family: "WiredDisplay", sans-serif;
 }
 
-.wiredMono {
+.wiredMono,
+.wiredMono * {
   font-family: "WiredMono", monospace;
 }
 

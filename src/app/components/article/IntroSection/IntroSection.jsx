@@ -29,7 +29,7 @@ export default function IntroSection() {
               that China is rewiring the future.
             </p>
             <h6 className={styles.editorsNoteSignature}>
-              &mdash; The Editors
+              &mdash;The Editors
             </h6>
           </div>
         </div>

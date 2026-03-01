@@ -56,7 +56,8 @@ export default function Home() {
               href="https://www.wired.com/story/china-humanoid-robot-coworkers/"
             />
             <SplitLayout
-              image={<img src="/images/1-Humanoids/humanoid-robot.png" alt="A humanoid robot walking in an office environment" />}
+              image="/images/1-Humanoids/humanoid-robot.png"
+              alt="A humanoid robot walking in an office environment"
             >
               <p>
                 A staggering 200-plus Chinese companies are trying to build humanoid robots. In the US, it&rsquo;s closer to 16.
@@ -72,7 +73,7 @@ export default function Home() {
               href="https://www.wired.com/story/china-crystal-capital/"
             />
             <p>
-              &quot;Nature has been  very kind to Donghai,&quot; explains a plaque 
+              <strong>&quot;Nature has been</strong> very kind to Donghai,&quot; explains a plaque 
               at the Donghai Crystal Museum. Blessed with rich deposits of 
               clear quartz, this county in eastern China once supplied raw 
               material for Mao Zedong&apos;s transparent coffin. Today, thanks to 
@@ -90,7 +91,9 @@ export default function Home() {
             <SectionHeader 
               number={3} 
               title="You'll gladly drink Franken-milk" />
-              <BigStat number={8} description="Tons Amount of milk a cloned Chinese &quot;super cow&quot; can produce annually, almost double the output of a typical American bovine." />
+              <BigStat 
+              toNumber={8} 
+              description="Tons Amount of milk a cloned Chinese &quot;super cow&quot; can produce annually, almost double the output of a typical American bovine." />
           </Section>
           <Section>
             <SectionHeader
@@ -106,7 +109,7 @@ export default function Home() {
                 />
               </div>
               <p>
-                “Made in China” used to be—and still often is—a label for cheap labor, knockoffs, and 
+                <strong>“Made in China”</strong> used to be—and still often is—a label for cheap labor, knockoffs, and 
                 $5 gadgets. Now it also means state-of-the-art technology assembled anywhere in 
                 the world. To illustrate the trend, WIRED mapped the global manufacturing footprint of 
                 China&apos;s massive battery industry. In 2024, more than 80 percent of the world&apos;s battery 
@@ -120,7 +123,8 @@ export default function Home() {
               number={5} 
               title="Your American-made EV is lame" />
               <BigStat 
-              number={16000000} 
+              startNumber={15999900}
+              toNumber={16000000} 
               duration={2}
               description="Estimated number of EVs sold in China in 2025—about 10 times more than were sold in the US." />
           </Section>
@@ -131,11 +135,11 @@ export default function Home() {
               href="https://www.wired.com/story/china-us-moon-race-trump-losing/"
             />
             <SplitLayout
-              image={<img src="/images/6-MoonRace.jpg" alt="A humanoid robot walking in an office environment" />}
-              border={false}
-            >
+              image="/images/6-MoonRace.jpg" 
+              alt="A humanoid robot walking in an office environment" 
+              border={false}>
               <p>
-                For the last six years at least, the United States and China have 
+                <strong>For the last six</strong> years at least, the United States and China have 
                 been locked in a space race to put people on the moon. The US mission, 
                 however, has been a boondoggle from the start. NASA&apos;s leaders settled 
                 on a plan of baffling complexity: a single trip to the lunar surface 

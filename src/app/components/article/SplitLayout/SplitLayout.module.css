@@ -13,13 +13,25 @@
   width: 50%;
 }
 
+.split > div:first-child {
+  padding-right: 4rem;
+}
+
 @media (max-width: 768px) {
   .split {
     flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .split > div {
     width: 100%;
+  }
+
+  .split > div:first-child {
+    padding-right: 0;
+  }
+  .split > div:last-child {
+    margin-bottom: 1rem;
   }
 }
 

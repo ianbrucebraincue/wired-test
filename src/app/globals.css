@@ -42,6 +42,12 @@ p {
   margin-bottom: 1em;
 }
 
+p strong {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 a {
   color: inherit;
   text-decoration: none;
